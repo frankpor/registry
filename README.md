@@ -28,3 +28,5 @@ The process follows five distinct phases:
 4.  **Deployment & Distribution:** The updated N-Quads files are published to a GitHub repository. To ensure wide accessibility, the system generates various exports in multiple formats, including RDF (Turtle, JSON-LD) and structured text (CSV, TSV). Simultaneously, the **Jena Fuseki** Triple Store is updated, enabling immediate data retrieval via a SPARQL endpoint.
 5.  **Release Management & Production Deployment:** The registry follows a **Major.Minor.Build** versioning logic. When a "Build" update occurs (when data changes), the Production Service Provider is notified and synchronizes the production mirror system to reflect the latest operational updates.
 <!-- test validation checks -->
+
+<!-- test scheduled validation -->
